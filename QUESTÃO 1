@@ -1,0 +1,21 @@
+package br.unipe.br.cc.p3.documentacao;
+
+import java.util.Arrays;
+
+
+public class UsaArrays {
+	/**
+	 * @author Gabriel
+	 * Declarando arrays e imprimindo
+	 */
+	
+	public static void main(String[] args) {
+		int i;
+		
+		int[] numeros = new int [300];
+		
+		Arrays.fill(numeros, 45);
+		
+		for (i = 0; i<=300; i++) {
+			System.out.println("O valor da posição: " + numeros[i]);
+		}
